@@ -1,0 +1,11 @@
+img {
+    position: absolute;
+    width: auto;
+    height: 80%;
+    max-width:100%;
+    left:0;
+    right:0;
+    bottom:0;
+    top: -10%;
+    margin:auto;
+}
