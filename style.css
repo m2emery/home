@@ -1,4 +1,4 @@
-img {
+.banner {
     position: absolute;
     width: auto;
     height: 80%;
@@ -8,4 +8,11 @@ img {
     bottom:0;
     top: -10%;
     margin:auto;
+}
+
+.menu {
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    width: 10%;
 }
