@@ -3,20 +3,47 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/animate.js"></script>
 <link rel="stylesheet" type="text/css" href="style.css">
-<link rel="icon" href="favicon.png"></head>
+<link rel="icon" href="favicon.png">
+</head>
 <body>
+    <div  class="all">
+        <div id="menu" style="display: none;">
+            <div class="menu">
+                <div id="social">
+                    <img class="social" src="images/menu/sec-social.svg"/>
+                </div>
+                <div id="project">
+                    <img class="project" src="images/menu/sec-proj.svg"/>
+                </div>
+                <div id="photo">
+                    <img class="photo" src="images/menu/sec-photo.svg"/>
+                </div>
+                <div id="music">
+                    <img class="music" src="images/menu/sec-music.svg"/>
+                </div>
+            </div>
+            <a class="button" href="#">
+                <div id="close-button">
+                    <div class="shadow"></div>
+                    <img class="button" src="images/close-button.svg"/>
+                </div>
+            </a>
+        </div>
 
-    <div>
-        <a class="menu" href="">
-            <div class="shadow"></div>
-            <img class="menu" src="images/menu-button.svg"/>
-        </a>
+        <div id="title">
+            <div id="name">
+                <img class="banner" src="images/title.svg"/>
+            </div>
+            <a class="button" href="#">
+                <div  id="menu-button">
+                    <div class="shadow"></div>
+                    <img class="button" src="images/menu-button.svg"/>
+                </div>
+            </a>
+        </div>
     </div>
-
-    <div>
-        <img class="banner" src="images/title.svg"/>
-    </div>
-
 </body>
 </html>

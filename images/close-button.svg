@@ -1,0 +1,22 @@
+<svg width="104" height="104" viewBox="0 0 104 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>close-button</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-2004 -2273)">
+<g id="close-button">
+<g id="Rectangle 6">
+<use xlink:href="#path0_fill" transform="translate(2005 2274)" fill="#FFFFFF"/>
+<use xlink:href="#path1_stroke" transform="translate(2005 2274)" fill="#FF4081"/>
+</g>
+<g id="ignore icon">
+<g id="Vector">
+<use xlink:href="#path2_stroke" transform="translate(2046 2315)" fill="#FF4081"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 101.25 0L 101.25 101.25L 0 101.25L 0 0Z"/>
+<path id="path1_stroke" d="M 0 0L 0 -1L -1 -1L -1 0L 0 0ZM 101.25 0L 102.25 0L 102.25 -1L 101.25 -1L 101.25 0ZM 101.25 101.25L 101.25 102.25L 102.25 102.25L 102.25 101.25L 101.25 101.25ZM 0 101.25L -1 101.25L -1 102.25L 0 102.25L 0 101.25ZM 0 1L 101.25 1L 101.25 -1L 0 -1L 0 1ZM 100.25 0L 100.25 101.25L 102.25 101.25L 102.25 0L 100.25 0ZM 101.25 100.25L 0 100.25L 0 102.25L 101.25 102.25L 101.25 100.25ZM 1 101.25L 1 0L -1 0L -1 101.25L 1 101.25Z"/>
+<path id="path2_stroke" d="M -3.53553 3.53553L 16.4645 23.5355L 23.5355 16.4645L 3.53553 -3.53553L -3.53553 3.53553ZM 3.53553 23.5355L 23.5355 3.53553L 16.4645 -3.53553L -3.53553 16.4645L 3.53553 23.5355Z"/>
+</defs>
+</svg>

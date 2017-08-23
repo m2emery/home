@@ -1,22 +1,104 @@
+.all{
+
+}
+
 .banner {
     position: absolute;
     width: auto;
-    height: 80%;
+    height: 40%;
     max-width:80%;
     left:10%;
     right:10%;
     bottom:0;
     top: -10%;
     margin:auto;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
-img.menu {
+.button {
     position: fixed;
     max-width: 100px;
     min-width: 50px;
     width: 5%;
     top: 2%;
     left: 2%;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.button:hover{
+    position: fixed;
+    top: 3%;
+    left: 3%;
+}
+
+.menu{
+    position: absolute;
+    width: auto;
+    height: 80%;
+    max-width:80%;
+    left:15%;
+    right:15%;
+    bottom:0;
+    top: -5%;
+    margin:auto;
+}
+
+.music{
+    width: 35.5%;
+    margin: 1%;
+    float:right;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.photo{
+    width: 35.5%;
+    margin: 1%;
+    float:right;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.project{
+    width: 73%;
+    margin: 1%;
+    float:right;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.social{
+    width: 23%;
+    margin: 1%;
+    float: left;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 .shadow{
@@ -28,12 +110,6 @@ img.menu {
     max-height: 100px;
     min-height: 50px;
     height: 5vw;
-    top: 3%;
-    left: 3%;
-}
-
-img.menu:hover{
-    position: fixed;
     top: 3%;
     left: 3%;
 }
