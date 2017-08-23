@@ -1,8 +1,8 @@
-<svg width="1920" height="1080" viewBox="0 0 1920 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<title>backdrop</title>
+<svg width="1437" height="450" viewBox="0 0 1437 450" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>title</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(-1971 0)">
-<rect x="1971" y="0" width="1920" height="1080" fill="#E5E5E5"/>
+<g id="Canvas" transform="translate(-2140 -326)">
+<rect x="2140" y="326" width="1437" height="450" fill="#E5E5E5"/>
 <clipPath id="clip-0" clip-rule="evenodd">
 <path d="M 1971 0L 3891 0L 3891 1080L 1971 1080L 1971 0Z" fill="#FFFFFF"/>
 </clipPath>
