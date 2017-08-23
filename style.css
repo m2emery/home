@@ -2,17 +2,38 @@
     position: absolute;
     width: auto;
     height: 80%;
-    max-width:100%;
-    left:0;
-    right:0;
+    max-width:80%;
+    left:10%;
+    right:10%;
     bottom:0;
     top: -10%;
     margin:auto;
 }
 
-.menu {
+img.menu {
     position: fixed;
-    top: 1%;
-    left: 1%;
-    width: 2%;
+    max-width: 100px;
+    min-width: 50px;
+    width: 5%;
+    top: 2%;
+    left: 2%;
+}
+
+.shadow{
+    position: fixed;
+    background-color: #FF4081;
+    max-width: 100px;
+    min-width: 50px;
+    width: 5vw;
+    max-height: 100px;
+    min-height: 50px;
+    height: 5vw;
+    top: 3%;
+    left: 3%;
+}
+
+img.menu:hover{
+    position: fixed;
+    top: 3%;
+    left: 3%;
 }
