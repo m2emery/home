@@ -1,5 +1,4 @@
 .all{
-
 }
 
 .banner {
@@ -24,9 +23,9 @@
     position: fixed;
     max-width: 100px;
     min-width: 50px;
-    width: 5%;
-    top: 2%;
-    left: 2%;
+    width: 4vw;
+    top: 2vh;
+    left: 2vh;
     user-drag: none;
     user-select: none;
     -moz-user-select: none;
@@ -37,10 +36,26 @@
 
 .button:hover{
     position: fixed;
-    top: 3%;
-    left: 3%;
+    top: 3vh;
+    left: 3vh;
 }
 
+.shadow{
+    position: fixed;
+    background-color: #FF4081;
+    max-width: 100px;
+    min-width: 50px;
+    width: 4vw;
+    max-height: 100px;
+    min-height: 50px;
+    height: 4vw;
+    top: 3vh;
+    left: 3vh;
+}
+
+#menu{
+    position: relative;
+}
 .menu{
     position: absolute;
     width: auto;
@@ -53,10 +68,16 @@
     margin:auto;
 }
 
+#music{
+    position: relative;
+    bottom: -500px;
+}
 .music{
-    width: 35.5%;
-    margin: 1%;
-    float:right;
+    overflow: hidden;
+    position: relative;
+    width: 35.4%;
+    margin: 1.05%;
+    float: right;
     user-drag: none;
     user-select: none;
     -moz-user-select: none;
@@ -65,9 +86,15 @@
     -ms-user-select: none;
 }
 
+#photo{
+    position: relative;
+    right: -500px;
+}
 .photo{
-    width: 35.5%;
-    margin: 1%;
+    overflow: hidden;
+    position: relative;
+    width: 35.4%;
+    margin: 1.05%;
     float:right;
     user-drag: none;
     user-select: none;
@@ -77,9 +104,15 @@
     -ms-user-select: none;
 }
 
+#project{
+    position: relative;
+    top: -500px;
+}
 .project{
-    width: 73%;
-    margin: 1%;
+    overflow: hidden;
+    position: relative;
+    width: 72.9%;
+    margin: 1.05%;
     float:right;
     user-drag: none;
     user-select: none;
@@ -89,9 +122,15 @@
     -ms-user-select: none;
 }
 
+#social{
+    position: relative;
+    left: -500px;
+}
 .social{
-    width: 23%;
-    margin: 1%;
+    overflow: hidden;
+    position: relative;
+    width: 22.9%;
+    margin: 1.05%;
     float: left;
     user-drag: none;
     user-select: none;
@@ -99,17 +138,4 @@
     -webkit-user-drag: none;
     -webkit-user-select: none;
     -ms-user-select: none;
-}
-
-.shadow{
-    position: fixed;
-    background-color: #FF4081;
-    max-width: 100px;
-    min-width: 50px;
-    width: 5vw;
-    max-height: 100px;
-    min-height: 50px;
-    height: 5vw;
-    top: 3%;
-    left: 3%;
 }

@@ -1,8 +1,8 @@
 <svg width="102" height="102" viewBox="0 0 102 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>menu-button</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(-2005 -34)">
-<rect x="2005" y="34" width="102" height="102" fill="#E5E5E5"/>
+<g id="Canvas" transform="translate(-2045 -34)">
+<rect x="2045" y="34" width="102" height="102" fill="#E5E5E5"/>
 <clipPath id="clip-0" clip-rule="evenodd">
 <path d="M 1971 0L 3891 0L 3891 1080L 1971 1080L 1971 0Z" fill="#FFFFFF"/>
 </clipPath>
@@ -10,41 +10,41 @@
 <path d="M 1971 0L 3891 0L 3891 1080L 1971 1080L 1971 0Z" fill="#FFFFFF"/>
 <g id="menu-button">
 <g id="Rectangle 6">
-<use xlink:href="#path0_fill" transform="translate(2005 34)" fill="#FFFFFF"/>
+<use xlink:href="#path0_fill" transform="translate(2045 34)" fill="#FFFFFF"/>
 <mask id="mask0_outline_ins">
-<use xlink:href="#path0_fill" fill="white" transform="translate(2005 34)"/>
+<use xlink:href="#path0_fill" fill="white" transform="translate(2045 34)"/>
 </mask>
 <g mask="url(#mask0_outline_ins)">
-<use xlink:href="#path1_stroke_2x" transform="translate(2005 34)" fill="#FF4081"/>
+<use xlink:href="#path1_stroke_2x" transform="translate(2045 34)" fill="#FF4081"/>
 </g>
 </g>
 <g id="menu icon">
 <g id="Rectangle 7">
-<use xlink:href="#path2_fill" transform="translate(2036 65)" fill="#FF4081"/>
+<use xlink:href="#path2_fill" transform="translate(2076 65)" fill="#FF4081"/>
 </g>
 <g id="Rectangle 7">
-<use xlink:href="#path2_fill" transform="translate(2049.91 65)" fill="#FF4081"/>
+<use xlink:href="#path2_fill" transform="translate(2089.91 65)" fill="#FF4081"/>
 </g>
 <g id="Rectangle 7">
-<use xlink:href="#path2_fill" transform="translate(2063.83 65)" fill="#FF4081"/>
+<use xlink:href="#path2_fill" transform="translate(2103.83 65)" fill="#FF4081"/>
 </g>
 <g id="Rectangle 7">
-<use xlink:href="#path2_fill" transform="translate(2036 78.913)" fill="#FF4081"/>
+<use xlink:href="#path2_fill" transform="translate(2076 78.913)" fill="#FF4081"/>
 </g>
 <g id="Rectangle 7">
-<use xlink:href="#path2_fill" transform="translate(2049.91 78.913)" fill="#FF4081"/>
+<use xlink:href="#path2_fill" transform="translate(2089.91 78.913)" fill="#FF4081"/>
 </g>
 <g id="Rectangle 7">
-<use xlink:href="#path2_fill" transform="translate(2063.83 78.913)" fill="#FF4081"/>
+<use xlink:href="#path2_fill" transform="translate(2103.83 78.913)" fill="#FF4081"/>
 </g>
 <g id="Rectangle 7">
-<use xlink:href="#path3_fill" transform="translate(2036 92.8261)" fill="#FF4081"/>
+<use xlink:href="#path3_fill" transform="translate(2076 92.8261)" fill="#FF4081"/>
 </g>
 <g id="Rectangle 7">
-<use xlink:href="#path3_fill" transform="translate(2050 92.8261)" fill="#FF4081"/>
+<use xlink:href="#path3_fill" transform="translate(2090 92.8261)" fill="#FF4081"/>
 </g>
 <g id="Rectangle 7">
-<use xlink:href="#path3_fill" transform="translate(2064 92.8261)" fill="#FF4081"/>
+<use xlink:href="#path3_fill" transform="translate(2104 92.8261)" fill="#FF4081"/>
 </g>
 </g>
 </g>
