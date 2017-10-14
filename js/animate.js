@@ -1,30 +1,34 @@
 $(document).ready(function(){
     $(function menu() {
-        $( "#menu-button" ).click(function() {
-            // $( "#title" ).toggle();
-            $("#title").fadeOut(150);
-            // $( "#menu" ).toggle();
-            $("#menu" ).fadeIn(150);
-
-            $("#music").animate({bottom: '0px'}, 350);
-            $("#photo").animate({right: '0px'}, 350);
-            $("#project").animate({top: '0px'}, 350);
-            $("#social").animate({left: '0px'}, 350);
-            // $("#menu").animate({overflow: 'visible'}, 150);
-            // document.getElementById("menu").style.overflow = "visible";
+        $( "#button-g" ).hover(function() {
+            $("#shadow-g").animate({width: '10vw'}, 200);
+        },
+        function(){
+            $("#shadow-g").animate({width: '2vw'}, 200);
         });
     });
-    $(function close() {
-        $( "#close-button" ).click(function() {
-            // $( "#title" ).toggle();
-            $("#title").fadeIn(450);
-            // $( "#menu" ).toggle();
-            $("#menu" ).fadeOut(150);
-
-            $("#music").animate({bottom: '-500px'}, 150);
-            $("#photo").animate({right: '-500px'}, 150);
-            $("#project").animate({top: '-500px'}, 150);
-            $("#social").animate({left: '-500px'}, 150);
+    $(function menu() {
+        $( "#button-i" ).hover(function() {
+            $("#shadow-i").animate({width: '14vw'}, 200);
+        },
+        function(){
+            $("#shadow-i").animate({width: '2vw'}, 200);
+        });
+    });
+    $(function menu() {
+        $( "#button-l" ).hover(function() {
+            $("#shadow-l").animate({width: '12.5vw'}, 200);
+        },
+        function(){
+            $("#shadow-l").animate({width: '2vw'}, 200);
+        });
+    });
+    $(function menu() {
+        $( "#button-r" ).hover(function() {
+            $("#shadow-r").animate({width: '12vw'}, 200);
+        },
+        function(){
+            $("#shadow-r").animate({width: '2vw'}, 200);
         });
     });
 });

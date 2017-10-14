@@ -1,141 +1,101 @@
 .all{
 }
 
-.banner {
+.container{
+    position: relative;
+}
+
+.title {
+    font-family: "BW Haas Head";
+    font-size: 10vw;
+    font-weight: bold;
+
     position: absolute;
-    width: auto;
-    height: 40%;
-    max-width:80%;
-    left:10%;
-    right:10%;
-    bottom:0;
-    top: -10%;
+    left:20%;
+    right:20%;
+    top: 1vw;
     margin:auto;
-    user-drag: none;
     user-select: none;
     -moz-user-select: none;
-    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.subtitle {
+    font-family: "BW Haas Head";
+    font-size: 4vw;
+    font-weight: bold;
+
+    position: absolute;
+    left:20%;
+    right:20%;
+    top: 13vw;
+    margin:auto;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.backdrop{
+    position: absolute;
+    width: 62vw;
+    height: 8vw;
+    top: 25%;
+    left: -0.5%;
+    z-index: -1;
+    background-color: #FF4081;
+}
+
+.link{
+    text-decoration:none;
+    color: black;
+}
+
+.buttons {
+    position: absolute;
+    left:20%;
+    right:20%;
+    margin:auto;
+    user-select: none;
+    -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
 }
 
 .button {
-    position: fixed;
-    max-width: 100px;
-    min-width: 50px;
-    width: 4vw;
-    top: 2vh;
-    left: 2vh;
-    user-drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
+    font-family: "BW Haas Head";
+    font-size: 2.5vw;
 }
 
 .button:hover{
-    position: fixed;
-    top: 3vh;
-    left: 3vh;
+    font-style: italic;
+}
+
+.button-g {
+    position: absolute;
+    top: 26vw;
+}
+
+.button-i {
+    position: absolute;
+    top: 30vw;  
+}
+.button-l {
+    position: absolute;
+    top: 34vw;
+}
+.button-r {
+    position: absolute;
+    top: 38vw;   
 }
 
 .shadow{
-    position: fixed;
-    background-color: #FF4081;
-    max-width: 100px;
-    min-width: 50px;
-    width: 4vw;
-    max-height: 100px;
-    min-height: 50px;
-    height: 4vw;
-    top: 3vh;
-    left: 3vh;
-}
-
-#menu{
-    position: relative;
-}
-.menu{
     position: absolute;
-    width: auto;
-    height: 80%;
-    max-width:80%;
-    left:15%;
-    right:15%;
-    bottom:0;
-    top: -5%;
-    margin:auto;
-}
-
-#music{
-    position: relative;
-    bottom: -500px;
-}
-.music{
-    overflow: hidden;
-    position: relative;
-    width: 35.4%;
-    margin: 1.05%;
-    float: right;
-    user-drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-}
-
-#photo{
-    position: relative;
-    right: -500px;
-}
-.photo{
-    overflow: hidden;
-    position: relative;
-    width: 35.4%;
-    margin: 1.05%;
-    float:right;
-    user-drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-}
-
-#project{
-    position: relative;
-    top: -500px;
-}
-.project{
-    overflow: hidden;
-    position: relative;
-    width: 72.9%;
-    margin: 1.05%;
-    float:right;
-    user-drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-}
-
-#social{
-    position: relative;
-    left: -500px;
-}
-.social{
-    overflow: hidden;
-    position: relative;
-    width: 22.9%;
-    margin: 1.05%;
-    float: left;
-    user-drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
+    width: 2vw;
+    height: 2vw;
+    top: 50%;
+    left: -4%;
+    z-index: -1;
+    background-color: #FF4081;
 }
