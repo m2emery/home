@@ -9,7 +9,7 @@
     }
 
     .title {
-        font-family: "BW Haas Head";
+        font-family: "Roboto";
         font-size: 9vw;
         font-weight: normal;
 
@@ -25,7 +25,7 @@
     }
 
     .subtitle {
-        font-family: "BW Haas Head";
+        font-family: "Roboto";
         font-size: 3.5vw;
         font-weight: bold;
 
@@ -67,7 +67,7 @@
     }
 
     .button {
-        font-family: "BW Haas Head";
+        font-family: "Roboto";
         font-size: 2.5vw;
     }
 
@@ -119,9 +119,9 @@
 }
 
 .title {
-    font-family: "BW Haas Head";
+    font-family: "Roboto";
     font-size: 9vw;
-    font-weight: bold;
+    font-weight: 800;
 
     position: absolute;
     left:22%;
@@ -135,9 +135,9 @@
 }
 
 .subtitle {
-    font-family: "BW Haas Head";
+    font-family: "Roboto";
     font-size: 3.5vw;
-    font-weight: bold;
+    font-weight: 600;
 
     position: absolute;
     left:22%;
@@ -177,8 +177,9 @@
 }
 
 .button {
-    font-family: "BW Haas Head";
+    font-family: "Roboto";
     font-size: 2.5vw;
+    font-weight: 400;
 }
 
 .button:hover{
