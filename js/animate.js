@@ -1,42 +1,97 @@
 $(document).ready(function(){
     $(function menu() {
+
+    // GIT
+        $( "#button-g" ).hoverIntent(
+            function() {
+                $("#shadow-g").animate({width: '17vw'}, 200);
+            },
+            function(){
+                $("#shadow-g").animate({width: '1vw'}, 250);
+            }
+        );
+
         $( "#button-g" ).hover(function() {
-            $("#shadow-g").animate({width: '10vw'}, 200);
+            $(".bg").css({
+                transition : 'background-color .25s ease-in-out',
+                'background-color': '#BCBCBC'
+            });
         },
         function(){
-            $("#shadow-g").animate({width: '2vw'}, 200);
+            $(".bg").css('background-color', '#F4F4F4');
         });
-    });
-    $(function menu() {
-        $( "#button-i" ).hover(function() {
-            $("#shadow-i").animate({width: '14vw'}, 200);
+
+    // SPOTIFY
+        $( "#button-s" ).hoverIntent(function() {
+            $("#shadow-s").animate({width: '15.7vw'}, 250);
         },
         function(){
-            $("#shadow-i").animate({width: '2vw'}, 200);
+            $("#shadow-s").animate({width: '1vw'}, 250);
         });
-    });
-    $(function menu() {
+
         $( "#button-s" ).hover(function() {
-            $("#shadow-s").animate({width: '11vw'}, 200);
+            $(".bg").css({
+                transition : 'background-color .25s ease-in-out',
+                'background-color': '#C1FFC0'
+            });
         },
         function(){
-            $("#shadow-s").animate({width: '2vw'}, 200);
+            $(".bg").css('background-color', '#F4F4F4');
         });
-    });
-    $(function menu() {
+
+    // INSTA
+        $( "#button-i" ).hoverIntent(function() {
+            $("#shadow-i").animate({width: '18.5vw'}, 250);
+        },
+        function(){
+            $("#shadow-i").animate({width: '1vw'}, 250);
+        });
+
+        $( "#button-i" ).hover(function() {
+            $(".bg").css({
+                transition : 'background-color .25s ease-in-out',
+                'background-color': '#FFDE79'
+            });
+        },
+        function(){
+            $(".bg").css('background-color', '#F4F4F4');
+        });
+
+    // LINKEDIN
+        $( "#button-l" ).hoverIntent(function() {
+            $("#shadow-l").animate({width: '17vw'}, 250);
+        },
+        function(){
+            $("#shadow-l").animate({width: '1vw'}, 250);
+        });
+
         $( "#button-l" ).hover(function() {
-            $("#shadow-l").animate({width: '12.5vw'}, 200);
+            $(".bg").css({
+                transition : 'background-color .25s ease-in-out',
+                'background-color': '#79B7FF'
+            });
         },
         function(){
-            $("#shadow-l").animate({width: '2vw'}, 200);
+            $(".bg").css('background-color', '#F4F4F4');
         });
-    });
-    $(function menu() {
-        $( "#button-r" ).hover(function() {
-            $("#shadow-r").animate({width: '12vw'}, 200);
+
+    // RESUME
+        $( "#button-r" ).hoverIntent(function() {
+            $("#shadow-r").animate({width: '15.7vw'}, 250);
         },
         function(){
-            $("#shadow-r").animate({width: '2vw'}, 200);
+            $("#shadow-r").animate({width: '1vw'}, 250);
+        });
+
+        $( "#button-r" ).hover(function() {
+            $(".bg").css({
+                transition : 'background-color .25s ease-in-out',
+                'background-color': '#FF7979'
+            });
+        },
+        function(){
+            $(".bg").css('background-color', '#F4F4F4');
+    
         });
     });
 });

@@ -1,6 +1,6 @@
 /*Mobile Scaling----------------------------------------------------------------*/
 
-@media screen and (max-width: 768px), (orientation: portrait), (aspect-ratio: 16/9), (aspect-ratio: 18/9) {
+/*@media screen and (max-width: 768px), (orientation: portrait), (aspect-ratio: 16/9), (aspect-ratio: 18/9) {
     .all{
     }
 
@@ -40,15 +40,6 @@
         -ms-user-select: none;
     }
 
-    .backdrop{
-        position: absolute;
-        width: 55vw;
-        height: 7vw;
-        top: 25%;
-        left: -0.5%;
-        z-index: -1;
-        background-color: #FF4081;
-    }
 
     .link{
         text-decoration:none;
@@ -107,7 +98,7 @@
         z-index: -1;
         background-color: #FF4081;
     }
-}
+}*/
 
 /*Normal Scaling Here--------------------------------------------------------*/
 
@@ -119,14 +110,15 @@
 }
 
 .title {
-    font-family: "Roboto";
-    font-size: 9vw;
-    font-weight: 800;
+    font-family: "Libre Baskerville", "Times New Roman", Times, serif;
+    font-size: 7vw;
+    font-weight: 700;
+    letter-spacing: 1.2vw;
 
     position: absolute;
-    left:22%;
-    right:22%;
-    top: 1vw;
+    left:15%;
+    right:15%;
+    top: 2vw;
     margin:auto;
     user-select: none;
     -moz-user-select: none;
@@ -135,14 +127,15 @@
 }
 
 .subtitle {
-    font-family: "Roboto";
-    font-size: 3.5vw;
-    font-weight: 600;
+    font-family: "Libre Baskerville", "Times New Roman", Times, serif;
+    font-size: 2.3vw;
+    font-weight: 400;
+    font-style: italic;
 
     position: absolute;
-    left:22%;
-    right:22%;
-    top: 11vw;
+    left:15%;
+    right:15%;
+    top: 10vw;
     margin:auto;
     user-select: none;
     -moz-user-select: none;
@@ -150,25 +143,19 @@
     -ms-user-select: none;
 }
 
-.backdrop{
-    position: absolute;
-    width: 55vw;
-    height: 7vw;
-    top: 25%;
-    left: -0.5%;
-    z-index: -1;
-    background-color: #FF4081;
+.bg{
+    background-color: #F4F4F4;
 }
 
 .link{
     text-decoration:none;
-    color: black;
+    color: #343434;;
 }
 
 .buttons {
     position: absolute;
-    left:22%;
-    right:22%;
+    left:15%;
+    right:15%;
     margin:auto;
     user-select: none;
     -moz-user-select: none;
@@ -177,44 +164,73 @@
 }
 
 .button {
-    font-family: "Roboto";
+    font-family: monospace;
     font-size: 2.5vw;
-    font-weight: 400;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .button:hover{
     font-style: italic;
+    
 }
 
 .button-g {
     position: absolute;
-    top: 22vw;
+    top: 22.5vw;
 }
 
 .button-s {
     position: absolute;
-    top: 26vw;
+    top: 22.5vw;  
+    left: 26vw;
 }
 
 .button-i {
     position: absolute;
-    top: 30vw;  
+    top: 22.5vw;   
+    left: 50vw;
 }
 .button-l {
     position: absolute;
-    top: 34vw;
+    top: 30vw;
+
 }
 .button-r {
     position: absolute;
-    top: 38vw;   
+    top: 30vw;
+    left: 26vw;
 }
 
 .shadow{
     position: absolute;
-    width: 2vw;
+    width: 1vw;
     height: 2vw;
     top: 50%;
-    left: -4%;
+    right: -5vw;
     z-index: -1;
-    background-color: #FF4081;
+    outline: #343434 solid .3vw;
+}
+
+.shadow-g{
+    background-color: #BCBCBC;
+    right: -7.7vw;
+
+}
+
+.shadow-s{
+    background-color: #C1FFC0;
+}
+
+.shadow-i{
+    background-color: #FFDE79;
+}
+
+.shadow-l{
+    background-color: #79B7FF;
+}
+
+.shadow-r{
+    background-color: #FF7979;
+    right: -6.4vw;
 }
