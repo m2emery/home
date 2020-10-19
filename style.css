@@ -110,10 +110,11 @@
 }
 
 .title {
-    font-family: "Libre Baskerville", "Times New Roman", Times, serif;
+    font-family: "Libre Baskerville", serif;
     font-size: 7vw;
     font-weight: 700;
-    letter-spacing: 1.2vw;
+    letter-spacing: .8vw;
+    color: #343434;
 
     position: absolute;
     left:15%;
@@ -127,15 +128,16 @@
 }
 
 .subtitle {
-    font-family: "Libre Baskerville", "Times New Roman", Times, serif;
-    font-size: 2.3vw;
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.8vw;
     font-weight: 400;
     font-style: italic;
+    color: #343434;
 
     position: absolute;
     left:15%;
     right:15%;
-    top: 10vw;
+    top: 11vw;
     margin:auto;
     user-select: none;
     -moz-user-select: none;
@@ -149,7 +151,7 @@
 
 .link{
     text-decoration:none;
-    color: #343434;;
+    color: #343434;
 }
 
 .buttons {
