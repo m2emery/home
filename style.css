@@ -211,6 +211,7 @@
 
 .shadow{
     position: absolute;
+    display: block;
     width: 1vw;
     height: 2vw;
     top: 55%;
