@@ -41,7 +41,7 @@ $(document).ready(function(){
 
     // INSTA
         $( "#button-i" ).hoverIntent(function() {
-            $("#shadow-i").animate({width: '18.5vw'}, 250);
+            $("#shadow-i").animate({width: '21vw'}, 250);
         },
         function(){
             $("#shadow-i").animate({width: '1vw'}, 250);
@@ -87,6 +87,25 @@ $(document).ready(function(){
             $(".bg").css({
                 transition : 'background-color .25s ease-in-out',
                 'background-color': '#FF7979'
+            });
+        },
+        function(){
+            $(".bg").css('background-color', '#F4F4F4');
+    
+        });
+
+    // DESIGN
+        $( "#button-d" ).hoverIntent(function() {
+            $("#shadow-d").animate({width: '21.2vw'}, 250);
+        },
+        function(){
+            $("#shadow-d").animate({width: '1vw'}, 250);
+        });
+
+        $( "#button-d" ).hover(function() {
+            $(".bg").css({
+                transition : 'background-color .25s ease-in-out',
+                'background-color': '#FABCFF'
             });
         },
         function(){

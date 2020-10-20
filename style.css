@@ -117,8 +117,8 @@
     color: #343434;
 
     position: absolute;
-    left:15%;
-    right:15%;
+    left:13%;
+    right:13%;
     top: 2vw;
     margin:auto;
     user-select: none;
@@ -135,8 +135,8 @@
     color: #343434;
 
     position: absolute;
-    left:15%;
-    right:15%;
+    left:13%;
+    right:13%;
     top: 11vw;
     margin:auto;
     user-select: none;
@@ -156,8 +156,8 @@
 
 .buttons {
     position: absolute;
-    left:15%;
-    right:15%;
+    left:13%;
+    right:13%;
     margin:auto;
     user-select: none;
     -moz-user-select: none;
@@ -203,6 +203,11 @@
     top: 30vw;
     left: 26vw;
 }
+.button-d {
+    position: absolute;
+    top: 30vw;
+    left: 50vw;
+}
 
 .shadow{
     position: absolute;
@@ -217,7 +222,6 @@
 .shadow-g{
     background-color: #BCBCBC;
     right: -7.7vw;
-
 }
 
 .shadow-s{
@@ -235,4 +239,9 @@
 .shadow-r{
     background-color: #FF7979;
     right: -6.4vw;
+}
+
+.shadow-d{
+    background-color: #FABCFF;
+    right: -11.9vw;
 }
