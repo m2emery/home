@@ -18,7 +18,7 @@ $(document).ready(function(){
             });
         },
         function(){
-            $(".bg").css('background-color', '#F4F4F4');
+            $(".bg").css('background-color', '#DADADA');
         });
 
     // SPOTIFY (NOW PORTFOLIO)
@@ -36,7 +36,7 @@ $(document).ready(function(){
             });
         },
         function(){
-            $(".bg").css('background-color', '#F4F4F4');
+            $(".bg").css('background-color', '#DADADA');
         });
 
     // INSTA
@@ -54,7 +54,7 @@ $(document).ready(function(){
             });
         },
         function(){
-            $(".bg").css('background-color', '#F4F4F4');
+            $(".bg").css('background-color', '#DADADA');
         });
 
     // LINKEDIN
@@ -72,7 +72,7 @@ $(document).ready(function(){
             });
         },
         function(){
-            $(".bg").css('background-color', '#F4F4F4');
+            $(".bg").css('background-color', '#DADADA');
         });
 
     // RESUME
@@ -90,7 +90,7 @@ $(document).ready(function(){
             });
         },
         function(){
-            $(".bg").css('background-color', '#F4F4F4');
+            $(".bg").css('background-color', '#DADADA');
     
         });
 
@@ -109,7 +109,7 @@ $(document).ready(function(){
             });
         },
         function(){
-            $(".bg").css('background-color', '#F4F4F4');
+            $(".bg").css('background-color', '#DADADA');
     
         });
     });
