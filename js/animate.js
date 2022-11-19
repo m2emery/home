@@ -23,7 +23,7 @@ $(document).ready(function(){
 
     // SPOTIFY (NOW PORTFOLIO)
         $( "#button-s" ).hoverIntent(function() {
-            $("#shadow-s").animate({width: '19vw'}, 250);
+            $("#shadow-s").animate({width: '18vw'}, 250);
         },
         function(){
             $("#shadow-s").animate({width: '1vw'}, 250);
@@ -77,7 +77,7 @@ $(document).ready(function(){
 
     // RESUME
         $( "#button-r" ).hoverIntent(function() {
-            $("#shadow-r").animate({width: '19vw'}, 250);
+            $("#shadow-r").animate({width: '18vw'}, 250);
         },
         function(){
             $("#shadow-r").animate({width: '1vw'}, 250);
