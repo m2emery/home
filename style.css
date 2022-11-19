@@ -116,10 +116,10 @@ body {
 }
 
 .title {
-    font-family: "Libre Baskerville", serif;
+    font-family: 'Alexandria', sans-serif;
     font-size: 7vw;
-    font-weight: 700;
-    letter-spacing: .8vw;
+    font-weight: 600;
+    letter-spacing: .5vw;
     color: #343434;
 
     position: absolute;
@@ -134,10 +134,9 @@ body {
 }
 
 .subtitle {
-    font-family: "Libre Baskerville", serif;
+    font-family: 'Alexandria', sans-serif;
     font-size: 1.8vw;
-    font-weight: 400;
-    font-style: italic;
+    font-weight: 300;
     color: #343434;
 
     position: absolute;
