@@ -118,8 +118,8 @@ body {
 .title {
     font-family: 'Archivo', sans-serif;
     font-size: 7vw;
-    font-weight: 600;
-    letter-spacing: -0.08em;
+    font-weight: 700;
+    letter-spacing: 0.06em;
     color: #343434;
 
     position: absolute;
@@ -136,7 +136,7 @@ body {
 .subtitle {
     font-family: 'Archivo', sans-serif;
     font-size: 1.8vw;
-    font-weight: 300;
+    font-weight: 400;
 /*     font-style: italic; */
     color: #343434;
 
