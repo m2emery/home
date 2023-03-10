@@ -220,10 +220,10 @@ body {
     display: block;
     width: 1vw;
     height: 2vw;
-    top: 56%;
+    top: 60%;
     right: -5vw;
     z-index: -1;
-    outline: #343434 solid .35vw;
+    outline: #343434 solid .45vw;
 }
 
 .shadow-g{
