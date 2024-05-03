@@ -233,14 +233,17 @@ body {
 
 .shadow-s{
     background-color: #C1FFC0;
+    right: -9.2vw;
 }
 
 .shadow-i{
     background-color: #FFDE79;
+    right: -11.9vw;
 }
 
 .shadow-l{
     background-color: #79B7FF;
+    right: -7.7vw;
 }
 
 .shadow-r{
