@@ -221,7 +221,7 @@ body {
     width: 1vw;
     height: 2vw;
     top: 60%;
-    right: -4.9vw;
+    right: -4.7vw;
     z-index: -1;
     outline: #343434 solid .45vw;
 }
@@ -237,6 +237,7 @@ body {
 
 .shadow-i{
     background-color: #FFDE79;
+    right: -4.4vw;
 }
 
 .shadow-l{
